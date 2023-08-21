@@ -1,0 +1,51 @@
+body {
+  padding: 10px;
+}
+
+input {
+  margin: 5px;
+}
+
+form label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: black;
+  font-family: Arial;
+}
+form input[type="text"] {
+  color: #000;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+#location {
+  width: 51px;
+}
+form input[type="radio"] + label {
+  display: inline;
+}
+form textarea {
+  color: #000;
+  margin-bottom: 20px;
+  width: 50%;
+  height: 4.1rem;
+}
+legend {
+  background-color: black;
+  color: white;
+  padding: 3px 6px;
+  border-radius: 6px;
+}
+fieldset {
+  border-radius: 6px;
+  margin: 10px;
+  padding: 10px 12px;
+}
+button {
+  padding:10px 16px;
+  background: blue;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  font-family: Tahoma;
+}
